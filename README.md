@@ -6,15 +6,17 @@ Lista de exercícios número 2, todos foram feitos com x86
 1. Modifique a janela do mundo (window/ortho) para os limites: xmin=-10, xmax=10,
 ymin=-10, ymax=10.
 
-Comentei a linha 98 do projeto questão1n2 como resposta.
+Comentei a linha 99 do projeto questão1n2 como resposta.
 
 2. Agora modifique para: xmin=0, xmax=800, ymin=600, ymax=0. De preferência,
 comente/remova o código de correção de aspecto.
 
-Comentei a linha 99 do projeto questão1n2 como resposta. Não consegui fazer o triângulo aparecer com essa configuração mas acho que era esperado.
+Comentei a linha 120 do projeto questão1n2 como resposta. Não consegui fazer o triângulo aparecer com essa configuração mas acho que era esperado.
 
 3. Utilizando a câmera 2D do exercício anterior, desenhe algo na tela. O que acontece
 quando posicionamos os objetos? Por que é útil essa configuração?
+
+Como desenhei algo no exercício 2 vou comentar apenas as respostas. Quando posicionamos os objetos após implementar os ajustes de escala os objetos escalam de acordo, essa configuração é utíl para manter a proporção do que desenhamos de acordo com o tamanho da janela.
 
 4. Modifique o viewport para desenhar a cena apenas no seguinte quadrante da janela
 da aplicação:
